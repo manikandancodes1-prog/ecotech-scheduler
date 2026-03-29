@@ -4,7 +4,7 @@ import axios from "axios";
  * Global Axios Instance Configuration
  * Base URL is set to the backend server
  */
-const API = axios.create({ baseURL: "http://localhost:5000/api" });
+const API = axios.create({ baseURL: "https://ecotech-backend-t1mq.onrender.com/api" });
 
 /**
  * Request Interceptor
