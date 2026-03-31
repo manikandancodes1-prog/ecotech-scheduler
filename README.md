@@ -83,6 +83,7 @@ Built with scalability, security, and performance in mind.
 bash
 
 git clone https://github.com/manikandancodes1-prog/ecotech-scheduler.git
+
 cd ecotech-scheduler
 
 ---------------------------------------------------------------------------------------------------
@@ -90,12 +91,14 @@ cd ecotech-scheduler
 2️⃣ Backend Setup
 
 cd server
+
 npm install
 
 Create .env file:
 
-MONGO_URI=mongodb://mkmanikalaimathi23_db_user:8t8rbMvZkmOLLevD@ac-v1nnjfc-shard-00-00.nvm7pdu.mongodb.net:27017,ac-v1nnjfc-shard-00-01.nvm7pdu.mongodb.net:27017,ac-v1nnjfc-shard-00-02.nvm7pdu.mongodb.net:27017/EcoTechDB?ssl=true&replicaSet=atlas-ewbomv-shard-0&authSource=admin&appName=EcoTech-Scheduler
-JWT_SECRET=mysecretkey123
+MONGO_URI= ******
+
+JWT_SECRET= *****123
 
 Run server:
 
@@ -106,7 +109,9 @@ npm run dev
 3️⃣ Frontend Setup
 
 cd client
+
 npm install
+
 npm start
 
 ---------------------------------------------------------------------------------------------------
@@ -150,5 +155,6 @@ npm start
 Manikandan S
 
 📧 manikandancodes1@gmail.com
+
 🔗 https://github.com/manikandancodes1-prog
 
